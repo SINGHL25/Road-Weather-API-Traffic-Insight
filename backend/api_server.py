@@ -3,7 +3,7 @@ import requests
 
 app = FastAPI()
 
-OPENWEATHER_API_KEY = "YOUR_API_KEY"
+OPENWEATHER_API_KEY = "e8a5d05ade6969b66fef40836799ff44"
 
 @app.get("/weather")
 def get_weather(city: str = Query(...)):
